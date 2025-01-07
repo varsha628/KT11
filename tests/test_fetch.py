@@ -1,7 +1,7 @@
 import pytest
-from src.fetch import add, divide, fetch
 
-from tests.mocks.functions import mock_api_success, mock_api_failure
+from src.fetch import add, divide, fetch
+from tests.mocks.functions import mock_api_failure, mock_api_success
 
 
 def test_fetch():

@@ -1,7 +1,8 @@
 """Conftest File."""
 
+from typing import Any, Dict
+
 import pytest
-from typing import Dict, Any
 
 FILTER_VALUE = "REDACTED"
 

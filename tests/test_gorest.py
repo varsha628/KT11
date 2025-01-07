@@ -1,14 +1,14 @@
 """Test cases for all methods in gorest.py file."""
 
-import pytest
 from typing import Any
+
+import pytest
+
 from src.gorest import user_details, user_list
-from tests.mocks.function_gorest import (
-    mock_user_details_success,
-    mock_user_list_success,
-    mock_user_details_failure,
-    mock_user_list_failure,
-)
+from tests.mocks.function_gorest import (mock_user_details_failure,
+                                         mock_user_details_success,
+                                         mock_user_list_failure,
+                                         mock_user_list_success)
 
 
 def test_fetch_user_details_mock(mocker: Any) -> None:

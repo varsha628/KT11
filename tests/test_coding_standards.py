@@ -1,8 +1,10 @@
 """Test cases for coding standards module."""
+from typing import Any
+
 import pytest
+
 from src.coding_standards import add_two_numbers, fetch, subtract
 from tests.mocks.functions import mock_api_failure, mock_api_success
-from typing import Any
 
 
 def test_fetch_success(mocker: Any) -> None:
